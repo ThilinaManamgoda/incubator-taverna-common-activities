@@ -47,7 +47,8 @@ public class CwlServiceDesc extends ServiceDescription<CwlActivityConfigurationB
 
 	@Override
 	public Class<? extends Activity<CwlActivityConfigurationBean>> getActivityClass() {
-		return (Class<? extends Activity<CwlActivityConfigurationBean>>) CwlDumyActivity.class;
+		//return (Class<? extends Activity<CwlActivityConfigurationBean>>) CwlDumyActivity.class;
+		return null;
 	}
 
 	@Override
